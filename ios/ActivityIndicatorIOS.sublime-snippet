@@ -5,9 +5,9 @@
               ${1:animating={true\}}
               ${2:color={'#808080'\}}
               ${3:hidesWhenStopped={true\}}
-              onLayout={${4:this.onLayout}}
-              ${5:size={'small'\}} />
-            ${6}
+              ${4:onLayout={${5:this.onLayout}}
+              ${6:size={'small'\}} />
+            ${7}
         ]]>
     </content>
     <tabTrigger>ActivityIndicatorIOS</tabTrigger>

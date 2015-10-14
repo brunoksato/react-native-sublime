@@ -1,0 +1,18 @@
+<snippet>
+    <content>
+        <![CDATA[
+            <ActivityIndicatorIOS
+              ${1:date={Date.now()\}}
+              ${2:maximumDate={${3:10}\}}
+              ${4:minimumDate={${5:0}\}}
+              ${6:minuteInterval={0\}}
+              ${7:mode={'datetime'\}}
+              ${8:onDateChange={${9:this.onDateChange}}}
+              ${10:timeZoneOffsetInMinutes={${11:new Date()).getTimezoneOffset()\}}} />
+            ${11}
+        ]]>
+    </content>
+    <tabTrigger>DatePickerIOS</tabTrigger>
+    <scope>source.js,source.jsx</scope>
+    <description>DatePickerIOS</description>
+</snippet>
