@@ -1,0 +1,19 @@
+<snippet>
+    <content>
+        <![CDATA[
+            <DrawerLayoutAndroid
+              ${1:drawerPosition={DrawerConsts.DrawerPosition.Left\}}
+              ${2:drawerWidth={${3:100}\}}
+              ${4:keyboardDismissMode={${5:'none'}\}}
+              ${6:onDrawerClose={${7:this.onDrawerClose}}}
+              ${8:onDrawerOpen={${9:this.onDrawerOpen}}}
+              ${10:onDrawerSlide={${11:this.onDrawerSlide}}}
+              ${12:onDrawerStateChanged={${13:this.onDrawerStateChanged}}}
+              ${14:renderNavigationView={${15:this.renderNavigationView}}}
+            </DrawerLayoutAndroid>
+        ]]>
+    </content>
+    <tabTrigger>DrawerLayoutAndroid</tabTrigger>
+    <scope>source.js,source.jsx</scope>
+    <description>DrawerLayoutAndroid</description>
+</snippet>
