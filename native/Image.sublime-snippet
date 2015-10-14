@@ -1,0 +1,25 @@
+<snippet>
+    <content>
+        <![CDATA[
+            <Image
+              ${1:onLayout={${2:this.onLayout}\}}
+              ${3:resizeMode={'cover'\}}
+              ${4:source={${5:require('image!name')}\}}
+              ${6:style={${7:styles.image}\}}
+              ${8:testID={'test'\}} />
+              ${9:accessibilityLabel={'image'\}}
+              ${10:accessible={true\}}
+              ${11:capInsets={${12: 1}\}}
+              ${13:defaultSource={'true'\}}
+              ${14:onError={${15:this.onError}\}}
+              ${16:onLoad={${17:this.onLoad}\}}
+              ${18:onLoadEnd={${19:this.onLoadEnd}\}}
+              ${20:onLoadStart={${21:this.onLoadStart}\}}
+              ${22:onProgress={${23:this.onProgress}\}} \>
+            ${23}
+        ]]>
+    </content>
+    <tabTrigger>Image</tabTrigger>
+    <scope>source.js,source.jsx</scope>
+    <description>Image</description>
+</snippet>

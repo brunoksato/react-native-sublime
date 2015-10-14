@@ -5,7 +5,7 @@
               ${1:animating={true\}}
               ${2:color={'#808080'\}}
               ${3:hidesWhenStopped={true\}}
-              ${4:onLayout={${5:this.onLayout}}
+              ${4:onLayout={${5:this.onLayout}\}}
               ${6:size={'small'\}} />
             ${7}
         ]]>
