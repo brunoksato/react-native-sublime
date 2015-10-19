@@ -1,0 +1,26 @@
+<snippet>
+    <content>
+        <![CDATA[
+            <MapView
+              ${1:annotations={${2:this.state.annotations || undefined}\}}
+              ${3:legalLabelInsets={${4:this.state.legalLabelInsets || undefined}\}}
+              ${5:mapType={${6:'standard'}\}}
+              ${7:maxDelta={10\}} />
+              ${8:minDelta={1\}} />
+              ${9:onAnnotationPress={${10:this.onAnnotationPress}\}}
+              ${11:onRegionChange={${12:this.onRegionChange}\}}
+              ${13:onRegionChangeComplete={${14:this.onRegionChangeComplete}\}}
+              ${15:pitchEnabled={${16:this.pitchEnabled}\}}
+              ${17:region={${18:this.state.region || undefined}}\}}
+              ${19:rotateEnabled={false\}} />
+              ${20:scrollEnabled={true\}} />
+              ${21:showsUserLocation={false\}} />
+              ${22:style={${23:styles.map}\}}
+              ${24:zoomEnabled={true\}} />
+            ${25}
+        ]]>
+    </content>
+    <tabTrigger>MapView</tabTrigger>
+    <scope>source.js,source.jsx</scope>
+    <description>MapView</description>
+</snippet>
