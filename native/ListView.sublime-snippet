@@ -7,7 +7,7 @@
               ${4:onChangeVisibleRows={${5:this.onChangeVisibleRows}\}}
               ${6:onEndReached={${7:this.onEndReached}\}}
               ${8:onEndReachedThreshold={${9:this.onEndReachedThreshold}\}}
-              ${10:pageSize={10\}} />
+              ${10:pageSize={10\}}
               ${11:removeClippedSubviews={false\}}
               ${12:renderFooter={${13:this.renderFooter}\}}
               ${14:renderHeader={${15:this.renderHeader}\}}

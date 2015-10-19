@@ -6,7 +6,7 @@
               ${3:resizeMode={'cover'\}}
               ${4:source={${5:require('image!name')}\}}
               ${6:style={${7:styles.image}\}}
-              ${8:testID={'test'\}} />
+              ${8:testID={'test'\}}
               ${9:accessibilityLabel={'image'\}}
               ${10:accessible={true\}}
               ${11:capInsets={${12: 1}\}}

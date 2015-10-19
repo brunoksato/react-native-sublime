@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+        <![CDATA[
+            <Modal
+              ${1:animated={true\}}
+              ${2:onDismiss={${3:this.onDismiss}\}}
+              ${4:transparent={false\}}
+            </Modal>
+            ${5}
+        ]]>
+    </content>
+    <tabTrigger>Modal</tabTrigger>
+    <scope>source.js,source.jsx</scope>
+    <description>Modal</description>
+</snippet>
