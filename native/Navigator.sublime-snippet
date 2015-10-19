@@ -1,0 +1,19 @@
+<snippet>
+    <content>
+        <![CDATA[
+            <Navigator
+              ${1:configureScene={${2:this.configureScene}\}}
+              ${3:initialRoute={${4:{{name: 'My First Scene', index: 0}}}\}}
+              ${5:initialRouteStack={${6:{{name: 'My First Scene', index: 0}}}\}}
+              ${7:navigationBar={${8:}\}}
+              ${9:navigator={${10:{}}\}}
+              ${11:onDidFocus={${12:this.onDidFocus}\}}
+              ${13:onWillFocus={${14:this.onWillFocus}\}}
+              ${15:onRegionChangeComplete={${16:(route, navigator) => <MySceneComponent title={route.title} />}\}} />
+            ${17}
+        ]]>
+    </content>
+    <tabTrigger>Navigator</tabTrigger>
+    <scope>source.js,source.jsx</scope>
+    <description>Navigator</description>
+</snippet>
